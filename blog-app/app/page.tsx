@@ -1,13 +1,13 @@
-import React from 'react'
+import BlogItem from "../Components/BlogItem";
+import Header from "../Components/Header";
 
-function page() {
+export default function Home() {
   return (
     <>
-    <Header/>
-    <BlogI
+   <Header/>
+   <BlogItem/>
 
     </>
   )
 }
 
-export default page
