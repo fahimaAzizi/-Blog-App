@@ -8,7 +8,7 @@ const Header = () => {
       {/* Top Navbar */}
       <div className='flex justify-between items-center'>
         <img
-          src={assets.logo}
+          src={assets.logo_icon}
           width={180}
           alt="logo"
           className='w-[130px] sm:w-auto'
@@ -30,7 +30,7 @@ const Header = () => {
         </p>
 
         {/* Email Form */}
-        <form className='flex justify-between max-w-[500px] hieght-9px scale-75 sm:scale-100 mx-auto mt-10 border border-black shadow-[-7px_7px_0px_#000000]'>
+        <form className='flex justify-between max-w-[500px] scale-75 sm:scale-100 mx-auto mt-10 border border-black shadow-[-7px_7px_0px_#000000]'>
           
           <input
             type='email'
