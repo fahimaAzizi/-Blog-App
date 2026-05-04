@@ -1,10 +1,32 @@
 import React, { useState } from 'react'
-import { blog_data } from '../assets/blog_data'
 import BlogItem from './BlogItem'
+import assets from '../assets/assets'
 
 const BlogList = () => {
 
   const [menu, setMenu] = useState("All")
+
+  // ✅ Define blogs here (NO blog_data.js needed)
+  const blog_data = [
+    {
+      title: "React Blog",
+      description: "Learn React step by step",
+      category: "Technology",
+      image: assets.pic1
+    },
+    {
+      title: "Startup Guide",
+      description: "Build startup easily",
+      category: "Startup",
+      image: assets.pic2
+    },
+    {
+      title: "Healthy Life",
+      description: "Tips for better lifestyle",
+      category: "Lifestyle",
+      image: assets.pic3
+    }
+  ]
 
   return (
     <div>
